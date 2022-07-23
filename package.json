@@ -1,0 +1,14 @@
+{
+  "name": "almacen-1",
+  "version": "1.0.0",
+  "description": "proyecto de almacen",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ESAU CALLE",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
