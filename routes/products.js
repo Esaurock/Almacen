@@ -9,7 +9,7 @@ route.get('/', (req, res) => {
 route.get('/:id', (req, res) => {
     var { id } = req.params
     //var id = req.params.id
-    res.send('Proximamente retornara el producto: ' + id + ' !')
+    res.send('Proximamente retornara el producto: ' + id)
 })
 
 route.post('/', (req, res) => {
