@@ -7,7 +7,11 @@ const products = require('./routes/products');
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-
+////////////////////////////
+app.use(express.json())
+//var json = expres.json()
+//app.use(json)
+////////////////////////////
 app.use('/', index)
 app.use('/products', products)
 
